@@ -44,7 +44,7 @@ body {
       transition: all 0.6s; }
   .card .fabActive {
     top: calc(50% - 50px);
-    right: calc(50% - 25px);
+    right: calc(75% - 25px);
     transform: scale(25); }
     .card .fabActive i {
       animation: none;
