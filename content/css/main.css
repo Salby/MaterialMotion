@@ -41,12 +41,16 @@ body {
     .card .fab i {
       color: white;
       transform: scale(1.5) translateY(35%) translateX(35%);
-      opacity: 1;
-      transition: all 0s; }
+      transition: all 0.6s; }
   .card .fabActive {
-    transform: scale(25) rotate(90deg); }
+    top: calc(50% - 50px);
+    right: calc(50% - 25px);
+    transform: scale(25); }
     .card .fabActive i {
-      opacity: 0; }
+      animation: none;
+      display: none; }
+  .card .fabInactive i {
+    animation: fabIconAnimate 0.7s; }
   .card .fabLayer {
     z-index: 6;
     width: 100%;
@@ -97,6 +101,13 @@ body {
     opacity: 0; }
   100% {
     transform: translateX(0%);
+    opacity: 1; } }
+@keyframes fabIconAnimate {
+  0% {
+    opacity: 0; }
+  80% {
+    opacity: 0; }
+  100% {
     opacity: 1; } }
 
 /*# sourceMappingURL=main.css.map */
