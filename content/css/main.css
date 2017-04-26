@@ -52,8 +52,11 @@ body {
     .card .fabActive i {
       animation: none;
       display: none; }
-  .card .fabInactive i {
-    animation: fabIconAnimate 0.7s; }
+  .card .fabInactive {
+    -moz-animation: fabAnimateClose 0.6s forwards;
+    -webkit-animation: fabAnimateClose 0.6s forwards; }
+    .card .fabInactive i {
+      animation: fabIconAnimate 0.7s; }
   .card .fabLayer {
     z-index: 6;
     width: 100%;
@@ -120,5 +123,11 @@ body {
     right: 45%; }
   100% {
     transform: scale(25); } }
+@keyframes fabAnimateClose {
+  0% {
+    transform: scale(25); }
+  100% {
+    top: calc(70% - 25px);
+    transform: scale(1); } }
 
 /*# sourceMappingURL=main.css.map */
