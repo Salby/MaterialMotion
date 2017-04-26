@@ -7,10 +7,10 @@ $(document).ready(function() {
         $(".fab").addClass("fabActive");
     }
     $(".fabLayer").addClass("fabLayerActive");
-    // CHANGE THEME-COLOR OF CHROME BAR AFTER 0.4 SECONDS
+    // CHANGE THEME-COLOR OF CHROME BAR AFTER 0.3 SECONDS
     setTimeout(function() {
       $("meta[name='theme-color']").attr('content', '#ff5252');
-    }, 400);
+    }, 300);
   });
   $(".fabClose").click(function() {
     // REMOVE CLASS .fabActive REPLACE WITH CLASS .fabInactive
