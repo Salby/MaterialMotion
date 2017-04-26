@@ -41,12 +41,14 @@ body {
     .card .fab i {
       color: white;
       transform: scale(1.5) translateY(35%) translateX(35%) rotateY(180deg);
-      transition: all 0.6s; }
+      -moz-transition: all 0.6s;
+      -webkit-transition: all 0.6s; }
   .card .fabActive {
     /*top: calc(50% - 50px) */
     /*right: calc(75% - 25px) */
     /*transform: scale(25) */
-    animation: fabAnimateOpen 0.6s forwards; }
+    -moz-animation: fabAnimateOpen 0.6s forwards;
+    -webkit-animation: fabAnimateOpen 0.6s forwards; }
     .card .fabActive i {
       animation: none;
       display: none; }
