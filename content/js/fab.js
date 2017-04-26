@@ -19,6 +19,6 @@ $(document).ready(function() {
     // CHANGE THEME-COLOR OF CHROME BAR AFTER 0.1 SECONDS
     setTimeout(function() {
       $("meta[name='theme-color']").attr('content', '#009688')
-    }, 100);
+    }, 300);
   });
 });
