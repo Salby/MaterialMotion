@@ -8,7 +8,7 @@ $(document).ready(function() {
     $(".fabLayer").addClass("fabLayerActive");
     setTimeout(function() {
       $("meta[name='theme-color']").attr('content', '#ff5252');
-    }, 500);
+    }, 400);
   });
   $(".fabClose").click(function() {
     $(".fab").removeClass("fabActive").addClass("fabInactive");
