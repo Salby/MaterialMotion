@@ -9,7 +9,7 @@ $(document).ready(function() {
     $(".fabLayer").addClass("fabLayerActive");
     // CHANGE THEME-COLOR OF CHROME BAR AFTER 0.3 SECONDS
     setTimeout(function() {
-      $("meta[name='theme-color']").attr('content', '#ff5252');
+      $("meta[name='theme-color']").attr('content', '#FF5722');
     }, 300);
   });
   $(".fabClose").click(function() {
@@ -18,7 +18,7 @@ $(document).ready(function() {
     $(".fabLayer").removeClass("fabLayerActive");
     // CHANGE THEME-COLOR OF CHROME BAR AFTER 0.1 SECONDS
     setTimeout(function() {
-      $("meta[name='theme-color']").attr('content', '#009688')
+      $("meta[name='theme-color']").attr('content', '#607D8B')
     }, 200);
   });
 });
