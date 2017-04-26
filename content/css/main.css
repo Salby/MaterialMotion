@@ -101,6 +101,10 @@ body {
           background-color: rgba(0, 0, 0, 0.05); }
         .card .fabLayerActive .fabContent li:active {
           background-color: rgba(0, 0, 0, 0.1); }
+        .card .fabLayerActive .fabContent li a {
+          display: block;
+          text-decoration: none;
+          color: white; }
 
 @keyframes rotateIn {
   0% {
