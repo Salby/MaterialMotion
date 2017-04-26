@@ -32,7 +32,7 @@ body {
     height: 50px;
     border-radius: 50px;
     position: absolute;
-    top: calc(70% - 25px);
+    bottom: 25px;
     right: 25px;
     background-color: #FF5252;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
@@ -44,11 +44,7 @@ body {
       -moz-transition: all 0.6s;
       -webkit-transition: all 0.6s; }
   .card .fabActive {
-    /*top: calc(50% - 50px) */
-    /*right: calc(75% - 25px) */
-    /*transform: scale(25) */
-    -moz-animation: fabAnimateOpen 0.6s forwards;
-    -webkit-animation: fabAnimateOpen 0.6s forwards; }
+    animation: fabAnimateOpen 0.6s forwards; }
     .card .fabActive i {
       animation: none;
       display: none; }
@@ -130,15 +126,17 @@ body {
   25% {
     transform: scale(1); }
   50% {
-    top: 45%;
+    bottom: 45%;
     right: 45%; }
   100% {
-    transform: scale(25); } }
+    transform: scale(25);
+    bottom: 45%;
+    right: 45%; } }
 @keyframes fabAnimateClose {
   0% {
     transform: scale(25); }
   100% {
-    top: calc(70% - 25px);
+    bottom: 25px;
     transform: scale(1); } }
 @media only screen and (max-width: 768px) {
   .card .fabLayerActive .fabClose:hover {
