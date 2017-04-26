@@ -104,7 +104,9 @@ body {
         .card .fabLayerActive .fabContent li a {
           display: block;
           text-decoration: none;
-          color: white; }
+          color: white;
+          -webkit-color: white;
+          -webkit-text-decoration: none; }
 
 @keyframes rotateIn {
   0% {
