@@ -134,10 +134,15 @@ body {
     right: 45%; } }
 @keyframes fabAnimateClose {
   0% {
-    transform: scale(25); }
-  100% {
-    bottom: 25px;
-    transform: scale(1); } }
+    transform: scale(25);
+    bottom: 45%;
+    right: 45%; }
+  50% {
+    bottom: 45%;
+    right: 45%; }
+  75% {
+    transform: scale(1); }
+  100%; }
 @media only screen and (max-width: 768px) {
   .card .fabLayerActive .fabClose:hover {
     background-color: transparent; }
