@@ -39,8 +39,10 @@ body {
     cursor: pointer;
     transition: all 0.6s; }
     .card .fab i {
+      width: 25px;
+      height: 25px;
       color: white;
-      transform: translateY(56%) translateX(56%) rotateY(180deg);
+      transform: translateY(50%) translateX(50%) rotateY(180deg);
       -moz-transition: all 0.6s;
       -webkit-transition: all 0.6s; }
   .card .fabActive {
