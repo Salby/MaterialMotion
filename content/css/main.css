@@ -75,7 +75,12 @@ body {
       position: absolute;
       top: 25px;
       right: 25px;
+      border-radius: 50px;
       cursor: pointer; }
+      .card .fabLayerActive .fabClose:hover {
+        background-color: rgba(0, 0, 0, 0.05); }
+        .card .fabLayerActive .fabClose:hover:active {
+          background-color: rgba(0, 0, 0, 0.1); }
       .card .fabLayerActive .fabClose i {
         color: white;
         transform: scale(1.5) translateY(35%) translateX(35%); }
@@ -96,14 +101,20 @@ body {
 
 @keyframes rotateIn {
   0% {
-    transform: translateX(25%) rotate(90deg);
+    transform: translateX(-25%) rotate(-90deg);
+    opacity: 0; }
+  50% {
+    transform: translateX(-25%) rotate(90deg);
     opacity: 0; }
   100% {
     transform: translateX(0%) rotate(0deg);
     opacity: 1; } }
 @keyframes fadeIn {
   0% {
-    transform: translateX(25%);
+    transform: translateX(-25%);
+    opacity: 0; }
+  50% {
+    transform: translateX(-25%);
     opacity: 0; }
   100% {
     transform: translateX(0%);
@@ -129,5 +140,10 @@ body {
   100% {
     top: calc(70% - 25px);
     transform: scale(1); } }
+@media only screen and (max-width: 768px) {
+  .card .fabLayerActive .fabClose:hover {
+    background-color: transparent; }
+  .card .fabLayerActive .fabClose:active {
+    background-color: rgba(0, 0, 0, 0.05); } }
 
 /*# sourceMappingURL=main.css.map */
