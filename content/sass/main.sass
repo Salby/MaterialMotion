@@ -88,12 +88,17 @@ body
       top: 100px
       right: 0px
       list-style: none
+      width: 100%
       li
         text-align: right
-        padding: 12.5px 25px 6px 0
+        padding: 12px 25px 12px 0
         font-size: 18px
         color: white
         cursor: pointer
+        &:hover
+          background-color: rgba(0,0,0,0.05)
+        &:active
+          background-color: rgba(0,0,0,0.1)
 @keyframes rotateIn
   0%
     transform: translateX(-25%) rotate(-90deg)
@@ -106,10 +111,10 @@ body
     opacity: 1
 @keyframes fadeIn
   0%
-    transform: translateX(-25%)
+    transform: translateX(-10%)
     opacity: 0
   50%
-    transform: translateX(-25%)
+    transform: translateX(-10%)
     opacity: 0
   100%
     transform: translateX(0%)
@@ -150,3 +155,9 @@ body
           background-color: rgba(0,0,0,0)
         &:active
           background-color: rgba(0,0,0,0.05)
+      .fabContent
+        li
+          &:hover
+            background-color: rgba(0,0,0,0)
+          &:active
+            background-color: rgba(0,0,0,0.05)
