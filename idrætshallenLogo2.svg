@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 1000 1000"
+   height="1000"
+   width="1000">
+  <defs
+     id="defs4">
+    <filter
+       id="filter7519"
+       style="color-interpolation-filters:sRGB;">
+      <feColorMatrix
+         result="fbSourceGraphic"
+         id="feColorMatrix7521"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1000 -500 " />
+      <feColorMatrix
+         id="feColorMatrix7835"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feFlood
+         in="fbSourceGraphic"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.560784"
+         id="feFlood7837" />
+      <feComposite
+         result="composite1"
+         operator="out"
+         in="flood"
+         id="feComposite7839"
+         in2="fbSourceGraphic" />
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="10"
+         in="composite1"
+         id="feGaussianBlur7841" />
+      <feOffset
+         result="offset"
+         dy="4.63518e-15"
+         dx="4.57967e-15"
+         id="feOffset7843" />
+      <feComposite
+         result="composite2"
+         operator="atop"
+         in="offset"
+         id="feComposite7845"
+         in2="fbSourceGraphic" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-52.36216)"
+     id="layer1">
+    <rect
+       ry="47.764305"
+       y="152.88281"
+       x="100.33103"
+       height="800.31494"
+       width="800.31494"
+       id="rect3417"
+       style="fill:#ff5722;fill-opacity:1;fill-rule:evenodd;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter7519)" />
+    <ellipse
+       ry="49.582195"
+       rx="50.165516"
+       cy="704.12018"
+       cx="451.63855"
+       id="path6150"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:4.80000019;stroke-miterlimit:4;stroke-dasharray:none" />
+  </g>
+  <g
+     id="layer2">
+    <g
+       transform="translate(0.3342871,-1.1666398)"
+       id="g6168">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:4.80000019;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect6138"
+         width="99.164391"
+         height="199.49542"
+         x="599.65289"
+         y="401.51373"
+         ry="23.916107" />
+      <ellipse
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:4.80000019;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path6140"
+         cx="649.23511"
+         cy="351.34821"
+         rx="49.582195"
+         ry="50.165516" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:4.80000019;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect6144"
+         width="48.998875"
+         height="199.49542"
+         x="599.65289"
+         y="501.84476"
+         ry="24.499437" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:4.80000019;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect6146"
+         width="199.49542"
+         height="47.832237"
+         x="599.65289"
+         y="553.17694"
+         ry="23.916119" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:4.80000019;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect6146-7"
+         width="199.49542"
+         height="47.832237"
+         x="600.39569"
+         y="402.72626"
+         ry="23.916119" />
+    </g>
+  </g>
+</svg>
