@@ -6,11 +6,15 @@ $(document).ready(function() {
         $(".fab").addClass("fabActive");
     }
     $(".fabLayer").addClass("fabLayerActive");
-    $("meta[name='theme-color']").attr('content', '#ff5252');
+    setTimeout(function() {
+      $("meta[name='theme-color']").attr('content', '#ff5252');
+    }, 500);
   });
   $(".fabClose").click(function() {
     $(".fab").removeClass("fabActive").addClass("fabInactive");
     $(".fabLayer").removeClass("fabLayerActive");
-    $("meta[name='theme-color']").attr('content', '#009688')
+    setTimeout(function() {
+      $("meta[name='theme-color']").attr('content', '#009688')
+    }, 100);
   });
 });
